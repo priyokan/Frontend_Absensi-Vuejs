@@ -1,6 +1,6 @@
 <template>
     <div>
-    <b-navbar type="light" variant="light" class="shadow p-2 mb-5 position-static">
+    <b-navbar type="light" style="" variant="light" class="shadow p-2 mb-5 position-static">
         <b-container>
         <b-navbar-nav>
             <img class="ml-5 mr-3" :src='image' alt="">
