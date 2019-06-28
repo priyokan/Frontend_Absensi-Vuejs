@@ -85,9 +85,7 @@ export default {
                 .post(apiUrl()+'guru',fd,config)
                 this.form.nama = null
                 this.form.alamat=null
-                this.form.imgGuru=null
-            
-        
+                this.form.imgGuru=null                    
          }
     },
     mounted() {
