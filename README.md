@@ -25,5 +25,12 @@ npm run test
 npm run lint
 ```
 
+
+### Package yang di perlukan
+```
+Axios,
+bootstrapVue
+vue Router
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

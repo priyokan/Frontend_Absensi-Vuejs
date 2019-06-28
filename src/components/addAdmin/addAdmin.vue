@@ -12,26 +12,26 @@
                     ></b-form-input>
                 </b-form-group>
 
-                <b-form-group>
-                    <div style="display:inline; float:left;width:50%" class="mr-2">
+                <b-form-group label='Nama'>
+                <div style="width:49%; " > 
                     <b-form-input
                     id="input-first"
                     v-model="form.first"
                     required
                     placeholder="nama depan..."
-                    style="display:inline; float:left;width:50%"
-                    ></b-form-input>
-                    </div>
-
-                    <b-form-input
+                    ></b-form-input>                  
+                </div>
+                <div style="position:relative;top:-28px;float:right;width:49%">
+                 <b-form-input
                     id="input-last"
                     v-model="form.last"
                     required
                     placeholder="nama belakang..."
                     ></b-form-input>
+                </div>
                 </b-form-group>
 
-                <b-form-group>
+                <b-form-group style="position:relative;top:-28px;">
                     <b-form-input
                     id="input-password"
                     v-model="form.password"
